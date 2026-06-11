@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/sanitize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:wght@700;800&family=Zen+Maru+Gothic:wght@500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header_left">
+      <a href="#">
+        <img src="images/logo.svg" alt="">
+      </a>
+    </div>
+
+    <div class="header_right">
+      <button class="hamburger" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="menu_wrap">
+        <div class="item">
+          <a href="#about">ABOUT ME</a>
+        </div>
+        <div class="item">
+          <a href="#bottom">WORKS</a>
+        </div>
+        <div class="item contact">
+          <a href="#form">CONTACT</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="top">
+    <div class="left">
+      <img src="images/top.png" alt="">
+    </div>
+
+    <div class="right" id="heroRight">
+
+      <div class="hero-area">
+        <div class="tab-frame">
+          <img src="images/frame.png" alt="">
+        </div>
+
+        <div class="sp-frame">
+          <img src="images/frame.png" alt="">
+        </div>
+
+        <div class="main">
+          <img src="images/main.png" alt="">
+        </div>
+
+        <div class="slide">
+          <div class="track">
+            <img src="images/YOSHIDA’S PORTFOLIO!.png" alt="">
+            <img src="images/YOSHIDA’S PORTFOLIO!.png" alt="">
+          </div>
+        </div>
+        <div class="slide tab_slide">
+          <div class="track">
+            <img src="images/YOSHIDA’S PORTFOLIO!.png" alt="">
+            <img src="images/YOSHIDA’S PORTFOLIO!.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="right-content">
+        <section id="about">
+          <div class="wrap about">
+            <div class="about_wrap">
+
+              <h2><span>ABOUT ME</span><br>私について</h2>
+              <div class="img">
+                <img src="images/about.png" alt="">
+              </div>
+              <div class="txt">
+                <p>Webデザイナー兼コーダー。<br class="pc">
+                  ユーザーにとって分かりやすく、使いやすいデザインと、<br class="pc">
+                  再現性の高いフロントエンド実装を強みとしています。</p>
+                <p>コンセプト設計から実装まで一貫して対応し、<br class="pc">
+                  デザインとコードのズレがないサイト制作を心がけています。</p>
+              </div>
+              <div class="txt">
+                <h3>可能なスキル</h3>
+                <ul>
+                  <li>HTML / CSS / JavaScriptを用いたWebサイトの構築</li>
+                  <li>WordPressを用いたサイト構築（既存テーマのカスタマイズ対応）</li>
+                  <li>Webサイトデザイン（UI/UXを意識した設計）/バナーデザイン/チラシ・ポスターデザイン/Instagram画像デザイン</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <section class="bottom" id="bottom">
+    <!-- 下のコンテンツ -->
+    <div class="wrap work">
+      <h2><span>WORKS</span><br>製作実績</h2>
+      <div class="work_wrap">
+        <div class="item">
+          <div class="img">
+            <img src="images/work/work01.webp" alt="">
+          </div>
+          <div class="txt">
+            <h3>株式会社アライン 様</h3>
+            <p>イベント・ライブ・コンサートの運営を行う株式会社アライン様のウェブサイトです。</p>
+          </div>
+          <a href="#" class="more-btn js-modal-open" data-modal="work01">
+            <span class="more-btn__circle">
+              <span class="more-btn__arrow"></span>
+            </span>
+            <span class="more-btn__text">詳しくはこちら</span>
+          </a>
+        </div>
+        <div class="item">
+          <div class="img">
+            <img src="images/work/work02.webp" alt="">
+          </div>
+          <div class="txt">
+            <h3>架空の美容室サイト</h3>
+            <p>架空の美容室のサイトデザイン・コーディングを行いました。</p>
+          </div>
+          <a href="#" class="more-btn js-modal-open" data-modal="work02">
+            <span class="more-btn__circle">
+              <span class="more-btn__arrow"></span>
+            </span>
+            <span class="more-btn__text">詳しくはこちら</span>
+          </a>
+        </div>
+        <div class="item">
+          <div class="img insta">
+            <img src="images/work/work03.webp" alt="">
+          </div>
+          <div class="txt">
+            <h3>架空の新商品ドーナツ広告用デザイン</h3>
+            <p>Instagram用に作成した架空の新商品ドーナツの販促用デザインです。</p>
+          </div>
+          <a href="#" class="more-btn js-modal-open" data-modal="work03">
+            <span class="more-btn__circle">
+              <span class="more-btn__arrow"></span>
+            </span>
+            <span class="more-btn__text">詳しくはこちら</span>
+          </a>
+        </div>
+        <div class="item">
+          <div class="img insta">
+            <img src="images/work/work04.webp" alt="">
+          </div>
+          <div class="txt">
+            <h3>架空のインテリアデザインスタジオロゴ</h3>
+            <p>架空のインテリアデザインスタジオのロゴ作成を行いました。</p>
+          </div>
+          <a href="#" class="more-btn js-modal-open" data-modal="work04">
+            <span class="more-btn__circle">
+              <span class="more-btn__arrow"></span>
+            </span>
+            <span class="more-btn__text">詳しくはこちら</span>
+          </a>
+        </div>
+        <div class="item">
+          <div class="img insta">
+            <img src="images/work/work05.webp" alt="">
+          </div>
+          <div class="txt">
+            <h3>架空の展示会ポスターデザイン</h3>
+            <p>
+              架空の展示会ポスターデザイン作成を行いました。</p>
+          </div>
+          <a href="#" class="more-btn js-modal-open" data-modal="work05">
+            <span class="more-btn__circle">
+              <span class="more-btn__arrow"></span>
+            </span>
+            <span class="more-btn__text">詳しくはこちら</span>
+          </a>
+        </div>
+      </div>
+      <!-- <div class="button">
+        <a href="#" class="more-btn">
+          <span class="more-btn__circle">
+            <span class="more-btn__arrow"></span>
+          </span>
+          <span class="more-btn__text">READ MORE</span>
+        </a>
+      </div> -->
+
+    </div>
+  </section>
+  <div class="modal js-modal" data-modal="work01">
+    <div class="modal__bg js-modal-close"></div>
+
+    <div class="modal__content">
+      <button class="modal__close js-modal-close" type="button" aria-label="閉じる">×</button>
+
+      <div class="modal__img">
+        <img src="images/work/work01.webp" alt="">
+      </div>
+
+      <div class="modal__txt">
+        <h3>株式会社アライン 様</h3>
+        <p>
+          イベント・ライブ・コンサートの運営を行う株式会社アライン様のウェブサイトです。<br>
+          サイトデザイン作成・サイトコーディングを行いました。<br>
+          スタッフの活力と明るさをデザインで表現しました。
+        </p>
+
+        <dl>
+          <dt>担当範囲</dt>
+          <dd>デザイン / コーディング</dd>
+
+          <dt>使用ツール</dt>
+          <dd>Photoshop / Illustrator / Adobe XD / VS Code</dd>
+
+        </dl>
+        <a href="jirei/index.html" target="_blank" class="more-btn">
+          <span class="more-btn__circle">
+            <span class="more-btn__arrow"></span>
+          </span>
+          <span class="more-btn__text">サイトはこちら</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal js-modal" data-modal="work02">
+    <div class="modal__bg js-modal-close"></div>
+
+    <div class="modal__content">
+      <button class="modal__close js-modal-close" type="button" aria-label="閉じる">×</button>
+
+      <div class="modal__img">
+        <img src="images/work/work02.webp" alt="">
+      </div>
+
+      <div class="modal__txt">
+        <h3>架空の美容室サイト</h3>
+        <p>
+          架空の美容室のサイトデザイン・コーディングを行いました。<br>女性らしい柔らかなデザインと垢抜けた印象を表現しています。
+        </p>
+
+        <dl>
+          <dt>担当範囲</dt>
+          <dd>Webデザイン / バナー制作</dd>
+
+          <dt>使用ツール</dt>
+          <dd>Photoshop / Illustrator / Adobe XD / VS Code</dd>
+
+        </dl>
+        <a href="jirei02/index.html" target="_blank" class="more-btn">
+          <span class="more-btn__circle">
+            <span class="more-btn__arrow"></span>
+          </span>
+          <span class="more-btn__text">サイトはこちら</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal js-modal" data-modal="work03">
+    <div class="modal__bg js-modal-close"></div>
+
+    <div class="modal__content">
+      <button class="modal__close js-modal-close" type="button" aria-label="閉じる">×</button>
+
+      <div class="modal__img insta">
+        <img src="images/work/work03.webp" alt="">
+      </div>
+
+      <div class="modal__txt">
+        <h3>架空の新商品ドーナツ広告用デザイン</h3>
+        <p>
+          Instagram用に作成した架空の新商品ドーナツの販促用デザインです。<br>
+          春らしさといちごのかわいらしさをデザインで表現しました。
+        </p>
+
+        <dl>
+          <dt>担当範囲</dt>
+          <dd>Instagram用画像デザイン</dd>
+
+          <dt>使用ツール</dt>
+          <dd>Photoshop / Illustrator</dd>
+
+        </dl>
+        <!-- <a href="#" class="more-btn js-modal-open" data-modal="work02">
+          <span class="more-btn__circle">
+            <span class="more-btn__arrow"></span>
+          </span>
+          <span class="more-btn__text">サイトはこちら</span>
+        </a> -->
+      </div>
+    </div>
+  </div>
+  <div class="modal js-modal" data-modal="work04">
+    <div class="modal__bg js-modal-close"></div>
+
+    <div class="modal__content">
+      <button class="modal__close js-modal-close" type="button" aria-label="閉じる">×</button>
+
+      <div class="modal__img insta">
+        <img src="images/work/work04.webp" alt="">
+      </div>
+
+      <div class="modal__txt">
+        <h3>架空のインテリアデザインスタジオロゴ</h3>
+        <p>
+          架空のインテリアデザインスタジオのロゴ作成を行いました。<br>
+          植物モチーフをアルファベットに取り入れたデザインとなっています。
+        </p>
+
+        <dl>
+          <dt>担当範囲</dt>
+          <dd>ロゴデザイン</dd>
+
+          <dt>使用ツール</dt>
+          <dd>Illustrator</dd>
+
+        </dl>
+        <!-- <a href="#" class="more-btn js-modal-open" data-modal="work02">
+          <span class="more-btn__circle">
+            <span class="more-btn__arrow"></span>
+          </span>
+          <span class="more-btn__text">サイトはこちら</span>
+        </a> -->
+      </div>
+    </div>
+  </div>
+  <div class="modal js-modal" data-modal="work05">
+    <div class="modal__bg js-modal-close"></div>
+
+    <div class="modal__content">
+      <button class="modal__close js-modal-close" type="button" aria-label="閉じる">×</button>
+
+      <div class="modal__img insta">
+        <img src="images/work/work05.webp" alt="">
+      </div>
+
+      <div class="modal__txt">
+        <h3>架空の展示会ポスターデザイン</h3>
+        <p>
+          架空の展示会ポスターデザイン作成を行いました。<br>
+          作品のシックな雰囲気にあったデザインにしています。
+        </p>
+
+        <dl>
+          <dt>担当範囲</dt>
+          <dd>ポスターデザイン</dd>
+
+          <dt>使用ツール</dt>
+          <dd>Illustrator</dd>
+
+        </dl>
+        <!-- <a href="#" class="more-btn js-modal-open" data-modal="work02">
+          <span class="more-btn__circle">
+            <span class="more-btn__arrow"></span>
+          </span>
+          <span class="more-btn__text">サイトはこちら</span>
+        </a> -->
+      </div>
+    </div>
+  </div>
+  <section class="form" id="form">
+    <div class="wrap work">
+      <h2><span>CONTACT</span><br>お問い合わせ</h2>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-item">
+          <label for="name">お名前<span>必須</span></label>
+          <input type="text" id="name" name="name" placeholder="山田 太郎" required>
+        </div>
+
+        <div class="form-item">
+          <label for="email">メールアドレス<span>必須</span></label>
+          <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+        </div>
+
+        <div class="form-item">
+          <label for="tel">電話番号</label>
+          <input type="tel" id="tel" name="tel" placeholder="090-1234-5678">
+        </div>
+
+        <div class="form-item">
+          <label for="category">お問い合わせ種別<span>必須</span></label>
+          <select id="category" name="category" required>
+            <option value="">選択してください</option>
+            <option value="design">Webデザインについて</option>
+            <option value="coding">コーディングについて</option>
+            <option value="wordpress">WordPress構築について</option>
+            <option value="other">その他</option>
+          </select>
+        </div>
+
+        <div class="form-item">
+          <label for="message">お問い合わせ内容<span>必須</span></label>
+          <textarea id="message" name="message" placeholder="お問い合わせ内容をご入力ください" required></textarea>
+        </div>
+
+        <div class="form-check">
+          <input type="checkbox" id="privacy" name="privacy" required>
+          <label for="privacy">プライバシーポリシーに同意する</label>
+        </div>
+
+        <div class="form-submit">
+          <button type="submit">SEND</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section class="copyright">
+    <p>Copyright © 2026 All Rights Reserved.</p>
+
+  </section>
+
+  <script>
+    (() => {
+      const bottomSection = document.getElementById('bottom');
+
+      if (!bottomSection) return;
+
+      const isPc = () => window.matchMedia('(min-width: 1025px)').matches;
+
+      const bottomObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (isPc()) {
+              if (entry.isIntersecting) {
+                bottomSection.classList.add('active');
+
+                // 一度表示されたら監視をやめる
+                bottomObserver.unobserve(bottomSection);
+              }
+            } else {
+              bottomSection.classList.add('active');
+            }
+          });
+        },
+        {
+          root: null,
+          threshold: 0,
+          rootMargin: '0px 0px -10% 0px',
+        }
+      );
+
+      bottomObserver.observe(bottomSection);
+
+      window.addEventListener('resize', () => {
+        if (!isPc()) {
+          bottomSection.classList.add('active');
+          bottomObserver.unobserve(bottomSection);
+        }
+      });
+    })();
+  </script>
+  <script src="js/frame.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/modal.js"></script>
+</body>
+
+</html>

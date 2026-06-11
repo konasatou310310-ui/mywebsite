@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="783.657" height="334" viewBox="0 0 783.657 334">
+  <g id="グループ_232" data-name="グループ 232" transform="translate(-1020 387)">
+    <text id="PORTFOLI" transform="translate(1020 -205)" font-size="140" font-family="Figtree-ExtraBold, Figtree" font-weight="800"><tspan x="0" y="0">PORTFOLI</tspan></text>
+    <text id="DESIGNER_CODER" data-name="DESIGNER &amp; CODER" transform="translate(1029 -348)" font-size="41" font-family="Figtree-Bold, Figtree" font-weight="700"><tspan x="0" y="0">DESIGNER &amp; CODER</tspan></text>
+    <text id="ヨシダのポートフォリオサイト" transform="translate(1020 -64)" font-size="38" font-family="ZenMaruGothic-Medium, Zen Maru Gothic" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">ヨシダのポートフォリオサイト</tspan></text>
+    <line id="線_1" data-name="線 1" x2="99" transform="translate(1029.5 -149.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="10" stroke-dasharray="0 20"/>
+    <ellipse id="楕円形_1" data-name="楕円形 1" cx="44.613" cy="44.613" rx="44.613" ry="44.613" transform="translate(1708.43 -299.18)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="12"/>
+    <path id="パス_6" data-name="パス 6" d="M265.074,265.883a5.708,5.708,0,1,1-5.708-5.708,5.708,5.708,0,0,1,5.708,5.708" transform="translate(1480.936 -532.463)"/>
+    <path id="パス_7" data-name="パス 7" d="M492.671,265.883a5.708,5.708,0,1,1-5.708-5.708,5.708,5.708,0,0,1,5.708,5.708" transform="translate(1278.823 -532.463)"/>
+    <path id="パス_8" data-name="パス 8" d="M197.328,487.729c.335.6,8.345,14.291,24.3,14.548a28.465,28.465,0,0,0,25.216-14.548" transform="translate(1530.958 -734.537)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12"/>
+  </g>
+</svg>

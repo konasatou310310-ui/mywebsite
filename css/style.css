@@ -1035,6 +1035,11 @@ section.copyright {
   width: 60%;
   margin: 0 auto 30px;
 }
+@media (max-width: 768px) {
+  .modal__img.insta {
+    width: 100%;
+  }
+}
 .modal__img img {
   width: 100%;
   height: 100%;

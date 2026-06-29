@@ -1294,6 +1294,9 @@ section {
       aspect-ratio: inherit;
       width: 60%;
       margin: 0 auto 30px;
+      @include sp-l(){
+        width: 100%;
+      }
     }
 
     img {

@@ -1017,6 +1017,7 @@ section.copyright {
   line-height: 1;
   cursor: pointer;
   transition: 0.3s;
+  z-index: 999;
 }
 .modal__close:hover {
   background: #FAE7A4;

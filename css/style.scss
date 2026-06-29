@@ -1275,6 +1275,7 @@ section {
     line-height: 1;
     cursor: pointer;
     transition: 0.3s;
+    z-index: 999;
 
     &:hover {
       background: #FAE7A4;

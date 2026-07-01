@@ -597,7 +597,7 @@ header.open .header_right .hamburger span:nth-child(3) {
     transform: scale(1.5);
   }
   .right .main img {
-    width: min(70vw, 220px);
+    width: min(70vw, 200px);
     max-width: none;
   }
 }
